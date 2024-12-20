@@ -1,0 +1,14 @@
+{
+    "remotes": {
+        "origin": {
+            "mainBranch": "main"
+        },
+        "silverlake": {
+            "mainBranch": "main"
+        },
+        "xxx": {
+            "mainBranch": "main"
+        }
+    },
+    "templateFolder": "./jhbase"
+}

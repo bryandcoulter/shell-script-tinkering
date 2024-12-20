@@ -1,0 +1,25 @@
+{
+  "name": "shell-script-tinkering",
+  "version": "1.0.0",
+  "description": "",
+  "main": "compare.js",
+  "scripts": {
+    "create:site": "NODE_PATH=bin node bin/index.js site create",
+    "runall": "node name-replace && node file-content.js && node file-content-small.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dir-compare": "^5.0.0",
+    "minimist": "^1.2.8"
+  },
+  "devDependencies": {
+    "@inquirer/prompts": "^7.2.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.7",
+    "fs-extra": "^11.2.0",
+    "shelljs": "^0.8.5",
+    "validate-npm-package-name": "^6.0.0",
+    "yargs": "^17.7.2"
+  }
+}

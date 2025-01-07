@@ -1,12 +1,9 @@
 {
-    "remotes": {
+    "sites": {
         "origin": {
             "mainBranch": "main"
         },
         "silverlake": {
-            "mainBranch": "main"
-        },
-        "xxx": {
             "mainBranch": "main"
         }
     },

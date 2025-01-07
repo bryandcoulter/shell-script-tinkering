@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const readFile = require('helpers/file/readFile');
+const readFile = require('bin/helpers/file/readFile');
 
 const replaceInFile = (filePath, searchString, replaceString) => {
     const data = readFile(filePath);

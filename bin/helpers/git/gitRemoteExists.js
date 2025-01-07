@@ -1,5 +1,5 @@
 
-const gitRemoteUrl = require('helpers/git/gitRemoteUrl');
+const gitRemoteUrl = require('bin/helpers/git/gitRemoteUrl');
 
 const gitRemoteExists = ({ remote }) => {
     const output = gitRemoteUrl({remote});

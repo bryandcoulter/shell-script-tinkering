@@ -1,8 +1,8 @@
-const shell = require('helpers/terminal/shell');
-const gitCheckoutMain = require('helpers/git/gitCheckoutMain');
+const shell = require('bin/helpers/terminal/shell');
+const gitCheckoutMain = require('bin/helpers/git/gitCheckoutMain');
 
 const ORIGIN = process.env.ORIGIN;
-const { mainBranch } = config.remotes.origin;
+const { mainBranch } = config.sites.origin;
 
 const UPSTREAM = process.env.UPSTREAM;
 

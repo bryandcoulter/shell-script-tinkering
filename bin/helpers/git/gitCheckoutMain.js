@@ -1,8 +1,8 @@
 
-const shell = require('helpers/terminal/shell');
-const config = require('config');
+const shell = require('bin/helpers/terminal/shell');
+const config = require('bin/config');
 
-const { mainBranch } = config.remotes.origin;
+const { mainBranch } = config.sites.origin;
 
 const gitCheckoutMain = () => shell(`git checkout ${mainBranch}`);
 
